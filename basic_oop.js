@@ -1,3 +1,5 @@
+//Basic OOP game project to uderstand OOP prototype in JS
+
 function Player(name) {
     this.name = name
     this.level = 1
@@ -23,6 +25,7 @@ Player.prototype.describe = function() {
 const player1 = new Player('Bobby');
 const player2 = new Player('Alice');
 
+//randomly passing gainxp(i.e experience point) on player1 & 2 objects
 player1.gainXp(4);
 player2.gainXp(5);
 player2.gainXp(7);
